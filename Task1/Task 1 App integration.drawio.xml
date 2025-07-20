@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Интеграционная схема банка Стандарт (AS-IS)" id="0">
+    <mxGraphModel dx="1427" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Клиент" style="shape=mxgraph.people.customer;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="50" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Сайт банка" style="shape=mxgraph.azure.web_app;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="230" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="451" y="390" />
+              <mxPoint x="180" y="390" />
+            </Array>
+            <mxPoint x="450.72" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-52" value="Создание платежей, окрытие счетов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.6185" y="3" relative="1" as="geometry">
+            <mxPoint x="-123" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Интернет-банк" style="shape=mxgraph.azure.web_app;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="230" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Система кол-центра&amp;nbsp;" style="shape=mxgraph.azure.calling_bot;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="230" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.882;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7" target="7m6LyQvG4W2l7WwhtW4v-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="480" />
+              <mxPoint x="720" y="370" />
+              <mxPoint x="960" y="370" />
+              <mxPoint x="960" y="110" />
+            </Array>
+            <mxPoint x="830" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-50" value="Обработка заявок колл-центра" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-49" vertex="1" connectable="0">
+          <mxGeometry x="0.3783" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="АБС" style="shape=mxgraph.sap.sap_hana;html=1;" parent="1" vertex="1">
+          <mxGeometry x="464" y="480" width="396" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Файл ставок (XLS)" style="shape=mxgraph.office.excel;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="410" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="СМС-шлюз" style="shape=mxgraph.general.cloud;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="9" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="800" />
+              <mxPoint x="50" y="70" />
+            </Array>
+            <mxPoint x="90" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-51" value="Отправка СМС" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.5494" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-29" value="Просмотр информации" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="11" vertex="1" connectable="0">
+          <mxGeometry x="0.5667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-30" value="Проведение платежей,&lt;div&gt;Открытие счетов&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
+          <mxGeometry x="-0.3231" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Звонок, запрос по ставкам" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="2" target="7m6LyQvG4W2l7WwhtW4v-20" edge="1">
+          <mxGeometry x="-0.0857" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-53" value="Заявка на расчет ставки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
+          <mxGeometry x="-0.7177" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" parent="1" source="7" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-19" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" parent="1" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="110" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-28" value="Фиксация обращения" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-19" vertex="1" connectable="0">
+          <mxGeometry x="0.4451" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-20" value="Оператор" style="shape=mxgraph.people.customer;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="70" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-22" value="БД АБС" style="shape=mxgraph.sap.sap_hana;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="430" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="561" />
+              <mxPoint x="180" y="561" />
+            </Array>
+            <mxPoint x="460" y="570" as="sourcePoint" />
+            <mxPoint x="180" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7m6LyQvG4W2l7WwhtW4v-31" target="7m6LyQvG4W2l7WwhtW4v-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-39" value="Запрос спецставки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-38" vertex="1" connectable="0">
+          <mxGeometry x="0.0921" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-31" value="Сотрудник_БэкОфиса" style="shape=mxgraph.people.customer;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="70" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7m6LyQvG4W2l7WwhtW4v-34" target="7m6LyQvG4W2l7WwhtW4v-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-36" value="Письмо" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-35" vertex="1" connectable="0">
+          <mxGeometry x="0.0596" relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-34" value="Сотрудник фронт-офиса" style="shape=mxgraph.people.customer;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="70" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="7m6LyQvG4W2l7WwhtW4v-37" target="7m6LyQvG4W2l7WwhtW4v-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-41" value="Ответ по ставке" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.5062" relative="1" as="geometry">
+            <mxPoint x="68" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-37" value="Сотрудник кредитования" style="shape=mxgraph.people.customer;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="230" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-42" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" target="7m6LyQvG4W2l7WwhtW4v-31" edge="1" source="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="400" as="sourcePoint" />
+            <mxPoint x="1260" y="220.03" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1078" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="7m6LyQvG4W2l7WwhtW4v-34" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-44" value="Создание депозита" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-43" vertex="1" connectable="0">
+          <mxGeometry x="0.2646" y="-4" relative="1" as="geometry">
+            <mxPoint x="-2" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7m6LyQvG4W2l7WwhtW4v-37" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1301" y="310" />
+              <mxPoint x="1301" y="450" />
+            </Array>
+            <mxPoint x="1301.5" y="379.97" as="sourcePoint" />
+            <mxPoint x="1120" y="519.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m6LyQvG4W2l7WwhtW4v-48" value="Ежедневное создание файла ставок" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7m6LyQvG4W2l7WwhtW4v-47" vertex="1" connectable="0">
+          <mxGeometry x="0.2282" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
