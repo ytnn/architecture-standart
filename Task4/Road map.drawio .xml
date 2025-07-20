@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Roadmap Deposits" id="SLug2aC3WfhTYcLah8-T">
+    <mxGraphModel dx="1427" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-1" value="Q3 2025" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="204" y="110" width="606" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-2" value="Q2 2025" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="830" y="110" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-4" value="Интернет-банк" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-5" value="Система кол-центра" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-6" value="АБС" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-7" value="Сайт" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="420" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-8" value="Партнерский кол-центр" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="500" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oA0nhn0kQHgdrMKnBlZr-11" value="Создание микросервиса подачи заявок на депозиты" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="230" y="190" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OLduMLrkSuNtUPhpWODL-18" value="Интеграция микросервиса подачи заявок на депозиты с АБС" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="470" y="190" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OLduMLrkSuNtUPhpWODL-20" value="Добавление функционала подачи заявок на депозит" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="240" y="430" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OLduMLrkSuNtUPhpWODL-22" value="Получение ставок из АБС" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="960" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OLduMLrkSuNtUPhpWODL-23" value="Создание микросервиса экспорта ставок в CRM кол-центра" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="630" y="360" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OLduMLrkSuNtUPhpWODL-24" value="Интеграция микросервиса экспорта ставок в CRM кол-центра" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="960" y="360" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OLduMLrkSuNtUPhpWODL-25" value="Добавление функционала загрузки ставок из банка" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="510" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OLduMLrkSuNtUPhpWODL-26" value="Добавление функционала ставок" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="370" y="360" width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
